@@ -1,0 +1,7 @@
+[agent]
+expertMode = true
+
+[deployment]
+run = ["sh", "-c", " npx serve"]
+deploymentTarget = "static"
+publicDir = "."
